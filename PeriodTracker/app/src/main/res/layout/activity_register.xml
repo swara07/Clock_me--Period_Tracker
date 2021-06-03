@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".register">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:id="@+id/name"
+        android:maxLines="1"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:hint="Enter your name"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/email"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@drawable/border"
+        android:layout_marginTop="50dp"
+        android:hint="Enter your email"
+        android:paddingLeft="10dp"
+        />
+
+
+
+
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/length"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@drawable/border"
+        android:layout_marginTop="50dp"
+        android:hint="Enter your length of your period days"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/duration"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@drawable/border"
+        android:layout_marginTop="50dp"
+        android:hint="Enter your duration of menstrual cycle"
+        android:paddingLeft="10dp"
+        />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/date"
+        android:text="Select last period date"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/save"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

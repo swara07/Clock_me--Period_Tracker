@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="40dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="serif"
+        android:text="Mood Tracker"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_gravity="center_horizontal" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:paddingLeft="60dp"
+        android:layout_gravity="center"
+
+        android:rowCount="3">
+
+        <ImageView
+            android:id="@+id/happy"
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/happy" />
+
+        <ImageView
+            android:id="@+id/inlove"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="11dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/inlove" />
+
+        <ImageView
+            android:id="@+id/confused"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/confused" />
+
+        <ImageView
+            android:id="@+id/crying"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/crying" />
+
+        <ImageView
+            android:id="@+id/mad"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/mad" />
+
+        <ImageView
+            android:id="@+id/ill"
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/ill" />
+
+        <ImageView
+            android:id="@+id/bored"
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/bored" />
+
+        <ImageView
+            android:id="@+id/unhappy"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/unhappy" />
+
+        <ImageView
+            android:id="@+id/angry"
+            android:layout_width="85dp"
+            android:layout_height="110dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            app:srcCompat="@drawable/angry" />
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#f3d3d5"
+        android:layout_marginTop="20dp"
+        android:text="See history"
+        android:id="@+id/graph" />
+
+</LinearLayout>
